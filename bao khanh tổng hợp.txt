@@ -98,12 +98,12 @@ repeat task.wait() until game:IsLoaded()
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 
 local Window = Fluent:CreateWindow({
-    Title="bao khanhi2",
+    Title="bao khanh",
     SubTitle="Tổng Hợp Script",
     TabWidth=157,
-    Size=UDim2.fromOffset(450,300),
+    Size=UDim2.fromOffset(450,400),
     Acrylic=true,
-    Theme="Dark",
+    Theme="light",
     MinimizeKey=Enum.KeyCode.End
 })
 
@@ -118,9 +118,23 @@ local Tabs = {
 -- Tab 0: Thông Tin
 Tabs.Main0:AddButton({
     Title="Youtuber",
-    Description="bao khanhi2",
+    Description="bao khanh",
     Callback=function()
         setclipboard("https://youtube.com/@")
+    end
+})
+Tabs.Main0:AddButton({
+    Title="discord",
+    Description=bao khanh",
+    Callback=function()
+        setclipboard("https://discord.com/@")
+    end
+})
+Tabs.Main0:AddButton({
+    Title="Facebook",
+    Description=bao khanh",
+    Callback=function()
+        setclipboard("https://Facebook/@")
     end
 })
 
